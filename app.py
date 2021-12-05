@@ -14,7 +14,7 @@ def about():
 def hello_name(name):
     return "Hello "+ name  
 
-@app.route("/")                
+@app.route("/contact")                
 def contact():                    
     return render_template("contact.html") 
 
